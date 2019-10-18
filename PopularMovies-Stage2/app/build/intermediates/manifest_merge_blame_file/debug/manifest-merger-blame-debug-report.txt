@@ -1,0 +1,79 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.popularmovies"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="19"
+8-->G:\NTL Android Nanodegree\Popular Movies Stage 2 Project\PopularMovies-stage2-master\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->G:\NTL Android Nanodegree\Popular Movies Stage 2 Project\PopularMovies-stage2-master\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->G:\NTL Android Nanodegree\Popular Movies Stage 2 Project\PopularMovies-stage2-master\app\src\main\AndroidManifest.xml:4:5-66
+11-->G:\NTL Android Nanodegree\Popular Movies Stage 2 Project\PopularMovies-stage2-master\app\src\main\AndroidManifest.xml:4:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->G:\NTL Android Nanodegree\Popular Movies Stage 2 Project\PopularMovies-stage2-master\app\src\main\AndroidManifest.xml:5:5-78
+12-->G:\NTL Android Nanodegree\Popular Movies Stage 2 Project\PopularMovies-stage2-master\app\src\main\AndroidManifest.xml:5:22-76
+13
+14    <application
+14-->G:\NTL Android Nanodegree\Popular Movies Stage 2 Project\PopularMovies-stage2-master\app\src\main\AndroidManifest.xml:7:5-30:19
+15        android:allowBackup="true"
+15-->G:\NTL Android Nanodegree\Popular Movies Stage 2 Project\PopularMovies-stage2-master\app\src\main\AndroidManifest.xml:8:9-35
+16        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+16-->[androidx.core:core:1.0.1] C:\Users\AL-Arabia\.gradle\caches\transforms-2\files-2.1\46da25c3e2ae6308b2227b660caa604d\core-1.0.1\AndroidManifest.xml:22:18-86
+17        android:debuggable="true"
+18        android:icon="@mipmap/ic_launcher"
+18-->G:\NTL Android Nanodegree\Popular Movies Stage 2 Project\PopularMovies-stage2-master\app\src\main\AndroidManifest.xml:9:9-43
+19        android:label="@string/app_name"
+19-->G:\NTL Android Nanodegree\Popular Movies Stage 2 Project\PopularMovies-stage2-master\app\src\main\AndroidManifest.xml:10:9-41
+20        android:roundIcon="@mipmap/ic_launcher_round"
+20-->G:\NTL Android Nanodegree\Popular Movies Stage 2 Project\PopularMovies-stage2-master\app\src\main\AndroidManifest.xml:11:9-54
+21        android:supportsRtl="true"
+21-->G:\NTL Android Nanodegree\Popular Movies Stage 2 Project\PopularMovies-stage2-master\app\src\main\AndroidManifest.xml:12:9-35
+22        android:theme="@style/AppTheme" >
+22-->G:\NTL Android Nanodegree\Popular Movies Stage 2 Project\PopularMovies-stage2-master\app\src\main\AndroidManifest.xml:13:9-40
+23        <activity android:name="com.example.popularmovies.MainActivity" >
+23-->G:\NTL Android Nanodegree\Popular Movies Stage 2 Project\PopularMovies-stage2-master\app\src\main\AndroidManifest.xml:14:9-20:20
+23-->G:\NTL Android Nanodegree\Popular Movies Stage 2 Project\PopularMovies-stage2-master\app\src\main\AndroidManifest.xml:14:19-47
+24            <intent-filter>
+24-->G:\NTL Android Nanodegree\Popular Movies Stage 2 Project\PopularMovies-stage2-master\app\src\main\AndroidManifest.xml:15:13-19:29
+25                <action android:name="android.intent.action.MAIN" />
+25-->G:\NTL Android Nanodegree\Popular Movies Stage 2 Project\PopularMovies-stage2-master\app\src\main\AndroidManifest.xml:16:17-69
+25-->G:\NTL Android Nanodegree\Popular Movies Stage 2 Project\PopularMovies-stage2-master\app\src\main\AndroidManifest.xml:16:25-66
+26
+27                <category android:name="android.intent.category.LAUNCHER" />
+27-->G:\NTL Android Nanodegree\Popular Movies Stage 2 Project\PopularMovies-stage2-master\app\src\main\AndroidManifest.xml:18:17-77
+27-->G:\NTL Android Nanodegree\Popular Movies Stage 2 Project\PopularMovies-stage2-master\app\src\main\AndroidManifest.xml:18:27-74
+28            </intent-filter>
+29        </activity>
+30        <activity
+30-->G:\NTL Android Nanodegree\Popular Movies Stage 2 Project\PopularMovies-stage2-master\app\src\main\AndroidManifest.xml:21:9-28:20
+31            android:name="com.example.popularmovies.DetailsMovies"
+31-->G:\NTL Android Nanodegree\Popular Movies Stage 2 Project\PopularMovies-stage2-master\app\src\main\AndroidManifest.xml:22:13-42
+32            android:parentActivityName="com.example.popularmovies.MainActivity"
+32-->G:\NTL Android Nanodegree\Popular Movies Stage 2 Project\PopularMovies-stage2-master\app\src\main\AndroidManifest.xml:24:13-55
+33            android:theme="@style/AppTheme" >
+33-->G:\NTL Android Nanodegree\Popular Movies Stage 2 Project\PopularMovies-stage2-master\app\src\main\AndroidManifest.xml:23:13-44
+34            <meta-data
+34-->G:\NTL Android Nanodegree\Popular Movies Stage 2 Project\PopularMovies-stage2-master\app\src\main\AndroidManifest.xml:25:13-27:48
+35                android:name="android.support.PARENT_ACTIVITY"
+35-->G:\NTL Android Nanodegree\Popular Movies Stage 2 Project\PopularMovies-stage2-master\app\src\main\AndroidManifest.xml:26:17-63
+36                android:value=".MainActivity" />
+36-->G:\NTL Android Nanodegree\Popular Movies Stage 2 Project\PopularMovies-stage2-master\app\src\main\AndroidManifest.xml:27:17-46
+37        </activity>
+38
+39        <provider
+39-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\AL-Arabia\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:23:9-27:43
+40            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+40-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\AL-Arabia\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:24:13-79
+41            android:authorities="com.example.popularmovies.lifecycle-process"
+41-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\AL-Arabia\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:25:13-69
+42            android:exported="false"
+42-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\AL-Arabia\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:26:13-37
+43            android:multiprocess="true" />
+43-->[androidx.lifecycle:lifecycle-process:2.0.0] C:\Users\AL-Arabia\.gradle\caches\transforms-2\files-2.1\7309f8169174f11110ad56440ca8f929\lifecycle-process-2.0.0\AndroidManifest.xml:27:13-40
+44    </application>
+45
+46</manifest>
